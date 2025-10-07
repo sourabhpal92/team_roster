@@ -269,7 +269,7 @@ def display_employee_details(employee_id):
         st.info("You have no upcoming holidays assigned in the roster.")
 
 # --- SIDEBAR ---
-st.sidebar.image("https://www.roche.com/dam/jcr:17d8536e-f78f-4326-afdd-f7c3272d1a1e/roche-logo-2023.png", width=150)
+st.sidebar.image("https://ace.roche.accenture.com/assets/Image/locationtracker/acc-roche.svg", width=150)
 st.sidebar.title("🗓️ Shift Roster Controls")
 st.sidebar.radio("Select View", ['Employee View', 'Admin View'], key='view', on_change=lambda: st.session_state.update(authenticated=False))
 st.sidebar.markdown("---")
